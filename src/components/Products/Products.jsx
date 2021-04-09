@@ -6,6 +6,9 @@ import useStyles from './styles';
 
 
 const Products = ({products}) => {
+
+    console.log(products);
+
     const classes = useStyles();
 
     return (
